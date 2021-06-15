@@ -1,0 +1,6 @@
+{
+	"WCUIExternalAuthEnabled" : true,
+	"WCUIida_SignoutBehavior" : "LocalSignOut",
+	"GlobalizationUICulture" : "en-AU",
+	"GlobalizationCulture" : "en-US"
+}

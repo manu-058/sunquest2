@@ -1,0 +1,18 @@
+{
+	"WCObjectAccessAppName" : "WCObjectAccessTest",
+	"WorldCareUIAppName" : "WorldCareUITest",
+	"WCPublicUIAppName" : "WCPublicUITest",
+	"WCServicesAppName" : "WCServicesTes", 
+	"WCPublicPortalWebAPIAppName" : "WCPublicPortalWebAPITest",
+	"WCPublicPortalUIAppName" : "WCPublicPortalUITest",
+	"WCNeoUIAppName" : "ContactTracingTest", 
+	"WCLabReportServiceAppName" : "WCLabReportServiceTest", 
+	"WCGASAAppName" : "WCGASATest",
+	"AdvanceMatchingServiceName" : "AdvanceMatchingTest", 
+	"BotManagerServiceName" : "BotManager_RootTest", 
+	"ADCServiceName" : "ADCHostService_RootTest", 
+	"ThresholdAnalysisServiceName" : "ThresholdAnalysisService_RootTest", 
+	"PrintAllPDFGeneratorServiceName" : "PrintAllPDFGeneratorServiceTest", 
+	"WCDocumentConverterServiceAppName" : "DocumentConverterTest",
+	"MessageGenerationWinServiceName" : "MessageGenerationWinServiceTest"
+}

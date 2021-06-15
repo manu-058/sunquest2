@@ -1,0 +1,11 @@
+{
+	"WCLabReportService" : true,
+	"AdvanceMatchingService" : true,
+	"BotManagerService" : true,
+	"WCGASA" : true,
+	"ADCHOSTService" : true,
+	"ThresholdAnalysisService" : true,
+	"PrintAllPDFGeneratorService" : true,
+	"WCDocumentConverterService" : true,
+	"MessageGenerationWinService" : true
+}

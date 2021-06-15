@@ -1,0 +1,7 @@
+{
+    "LoggingDBConnectionString" : "Data Source=vmdk-ph-depdb.sqdev.sunquestinfo.com;Initial Catalog=Logging1910;Integrated Security=false;Uid=sa;Pwd=Default1",
+	"ASPStateConnectionString" : "data source=vmdk-ph-depdb.sqdev.sunquestinfo.com;initial catalog=ASPState;user id=sa;password=Default1",
+	"UODSDBConnectionString" : "data source=vmdk-ph-depdb.sqdev.sunquestinfo.com;initial catalog=APHIM_WISC_ROOTBRANCH;user id=sa;password=Default1;connection timeout=15; Max Pool Size=1000",
+	"LRMConnectionString" : "data source=vmdk-ph-depdb.sqdev.sunquestinfo.com;initial catalog=PHIL_LRM_1910;User ID=Sonali;Password=Default1",
+	"ViewstateSvc" : "tcp://vmdk-ph-depdb.sqdev.sunquestinfo.com:37901/ViewStateServer"
+}

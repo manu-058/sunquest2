@@ -1,0 +1,10 @@
+{
+	"WebServerWebSiteBaseURL" : "http://VMDC-WC-TAFWeb.sqproddev.com" ,
+	"AppServerWebSiteBaseURL" : "http://VMDC-WC-TAFWeb.sqproddev.com" ,
+	"SatelliteServerWebSiteBaseURL" : "http://VMDC-WC-TAFWeb.sqproddev.com" ,
+	"EndUserWebServerBaseURL" : "https://VMDC-WC-TAFWeb.sqproddev.com:9591" ,
+	"ParentSite" : "Default Web Site" ,
+	"DeploymentPath" : "D:\\WebSitesTest\\WCTest" ,
+	"TempDir" : "D:\\Trans" ,
+	"BackupDir" : "D:\\WorldCare\\WCBackup"
+}

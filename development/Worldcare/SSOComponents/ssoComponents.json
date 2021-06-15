@@ -1,0 +1,18 @@
+{
+	"SSOWebsitesRootPath" : "D:\\SSO",
+	"AuthenticationProxySiteName" : "AuthenticationProxy",
+	"AuthenticationProxy_TokenStoreServiceName" :" AuthenticationProxy.TokenStoreSvc",
+	"IdentityComponentSiteName" :" IdentityComponent",
+	"IdentityComponent_HostName" : "VMDC-WC-TAFWeb.sqproddev.com:9592",
+	"AuthenticationProxy_HostName" : "VMDC-WC-TAFWeb.sqproddev.com:9591",
+	"WCServices_HostName" : "VMDC-WC-TAFWeb.sqproddev.com",
+	"AuthenticationProxySESSION_TIMEOUT" : 3600,
+	"AuthenticationProxyMAX_USER_ACTIVITY_TIMEOUT" : 86400,
+	"AllowAuthProxyCookieForAllReq" : true,
+	"EnableAdditionalClaimsProviderofExternalAuthentication" : true,
+	"ViewBag_DefaultMode" : "local",
+	"IdentityComponentFederationmetadataxmlURL" : "https://VMDC-WC-TAFWeb.sqproddev.com/federationmetadata/2007-06/federationmetadata.xml",
+	"ReplacementVlueForglobalcurrent" :" ContactTracingTest",
+	"AuthenticationProxy_TokenStoreServic_TOKEN_EXPIRY_BUFFER_DURATION" : 3660,
+	"AuthenticationProxy_TokenStoreServic_EXPIRED_TOKEN_CLEANUP_DURATION" : 1800000
+}

@@ -1,0 +1,16 @@
+{
+	"PHGEOCODER" : "MELISSA",
+	"DataFlowPipelineHostingServiceUrl" : "http://localhost/DataFlowPipelineHostingService",
+	"MessageSourceDataAdapterServiceURL" : "http://localhost:8731/MessageSourceDataAdapterWCFService/MessageSourceDataAdapterWCFService",
+	"MessageSourceDataAdapterServiceMessagingRootFolder" : "D:\\ATLAS\\Messaging\\",
+	"MessageSourceDataAdapterServiceQueueEvents" : true,
+	"SSISExportEnabled" : false,
+	"SSISExportURL" : "http://localhost/DynamicSSISExport",
+	"SmtpServer" : "smtp.sunquestinfo.com",
+	"SmtpPort" : 25,
+	"SmtpUser" : "",
+	"SmtpPassword" : "",
+	"SmtpSSL" : "",
+	"UseDefaultSmtpCredentials" : false,
+	"StateTransmissionOutputFileFolder" : ""
+}

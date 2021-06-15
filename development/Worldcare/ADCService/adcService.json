@@ -1,0 +1,13 @@
+{
+    "AMPMailServer" : "server=smtp.sunquestinfo.com",
+	"AMPFromAddress" : "PhAlerts@sunquestinfo.com",
+	"AMPEmailThreadSleepInterval" : 120,
+	"AMPEmailQueueChunkSize" : 50,
+	"AMPEmailProcessingChunkSize" : 10,
+	"AMPEmailSendingInterval" : 1000,
+	"NotificationThreadSleepInterval" : 120,
+	"NotificationQueueChunkSize" : 50,
+	"NotificationProcessingChunkSize" : 10,
+	"NotificationSendingInterval" : 1000,
+	"NotificationGatewayURL" : "http://vmdk-rm2-fax.sqdev.sunquestinfo.com/"
+}

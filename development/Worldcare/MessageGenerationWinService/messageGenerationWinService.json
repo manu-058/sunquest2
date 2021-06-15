@@ -1,0 +1,14 @@
+{
+	"ExecutionInterval" : 5,
+	"ReprocessFailedEvent" : false,
+	"SiteID" : ".0.120",
+	"CRHostNameOrIP": "10.10.72.42",
+	"CRPortNumber" : 8287,
+	"CRSocketSendTimeout" : 30000,
+	"CRSocketReceiveTimeout" : 30000,
+	"CDCLogFileName" : "CDCMesg.log",
+	"CDCLogFilePath" : "C:\\CDCMessage",
+	"CDCReprocessFailedEvent" : false,
+	"CDCMetadataLocation" : "Config\\CDCMessageMetadata.xsd",
+	"CDCSiteID" : ".0.120"
+}

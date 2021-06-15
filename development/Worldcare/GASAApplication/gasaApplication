@@ -1,0 +1,10 @@
+{
+	"GASAGeoMedURL" : "geomed.moph.gov.qa",
+	"GASAMappifyClassifyURL" : "https://mappify.io/api/rpc/coordinates/classify",
+	"GASAMappifyGeoCodeURL" : "https://mappify.io/api/rpc/address/geocode", 
+	"GASAMelissaDataFilesPath" : "D:\\SETUP\\GASA\\Com Objects\\",
+	"GASAMTArcGISURL" : "[gisbaseurl]",
+	"GASAMappifyAPIKey" : "11b4e6e7-a857-4350-80b6-34197d01534d",
+	"GASAConfidenceThreshold" : "0.01",
+	"GASAMTArcGISBlockBaseURL" : "[blockbaseurl]"
+}

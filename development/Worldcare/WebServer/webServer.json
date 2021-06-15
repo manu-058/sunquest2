@@ -1,0 +1,10 @@
+{
+    "WCUI" : true,
+    "HelpFiles" : true,
+    "WCPublicUI" : true,
+	"WCServices" : true,
+	"WCPublicPortalUI" : true,
+	"WCPublicPortalWebAPI" : true,
+	"WCNeoUI" : true,
+	"SSOComponents" : true
+}

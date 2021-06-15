@@ -1,0 +1,10 @@
+{
+    "UseProxy" : false,
+	"ClientCertificateFilePathForProxyRequest" : "",
+	"ClientCertificatePassword" : "", 
+	"UseDefaultNetworkCredentials" : false,
+	"NetworkUser" : "" ,
+	"NetworkPassword" : "",
+	"BypassInvalidServerCertificateForProxy" : "", 
+	"securityMode" : "Transport"
+}

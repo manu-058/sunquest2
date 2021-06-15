@@ -1,0 +1,51 @@
+# Node.js
+# Build a general Node.js project with npm.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+trigger:
+- development
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- task: NodeTool@0
+  inputs:
+    versionSpec: '10.x'
+  displayName: 'Install Node.js'
+
+- script:
+    npm install
+    npm run build
+  displayName: 'npm install and build'
+
+- task: CmdLine@2
+  inputs:
+    script: 'npm install -g git2consul'
+  displayName: 'Install git2consul'
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+      $jsonBase = @{}
+      $branches = New-Object System.Collections.ArrayList
+      $branches.Add("$(Branch)")
+      $repos = @{}
+      $repos.Add("name","$(KVStoreName)")
+      [uri]$url = "$(GitUrl)"
+      $GitAccessUrl = $url.Scheme+"://"+"$(PATforGitAccess)"+"@"+$url.Host+$url.AbsolutePath
+      $repos.Add("url",$GitAccessUrl)
+      $repos.Add("expand_keys",$(Git2ConsulExpandkeys))
+      $repos.Add("branches",$branches)
+      $list = New-Object System.Collections.ArrayList
+      $list.Add($repos)
+      $jsonBase.Add("version","1.0")
+      $jsonBase.Add("repos",$list)
+      $jsonBase | ConvertTo-Json -Depth 3 | set-content "config.json"
+  displayName: 'Create config.json for git2consul'
+- task: CmdLine@2
+  inputs:
+    script: 'git2consul --config-file "config.json" --port 443 --endpoint "$(AzureConsulEndpoint)" --token "$(AccessToken)" --secure "true"'
+  displayName: 'Call git2consul'
+

@@ -1,0 +1,8 @@
+{
+    "DataCenter": "dev-dc-staging",
+    "Address": "https://a8c866f3-da30-45db-a2ab-a60b6e696ef6.consul.348648b5-75ac-4028-9a55-9791ae240734.az.hashicorp.cloud/",
+    "PortNumber": 8500,
+    "TokenBasedAuthentication": true,
+    "EncryptedToken": "c9d195b3-6d29-7231-5abe-9df591381ff7",
+    "WaitTime": "10"
+  }
