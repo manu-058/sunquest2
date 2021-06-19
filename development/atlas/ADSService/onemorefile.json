@@ -1,3 +1,4 @@
 {
-  "seconfilekey1" : { "level2" : " val"}
+  "seconfilekey1" : { "level2" : " val"},
+  "hello1": "ok"
 }
