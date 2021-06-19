@@ -1,5 +1,6 @@
 {
   "seconfilekey1" : { "level2" : " val"},
   "hello1": "ok",
-  "key11":"lol"
+  "key11":"lol",
+  "mohan" : ["bingo","task"]
 }
