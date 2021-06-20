@@ -9,5 +9,6 @@
 	"NotificationQueueChunkSize" : 50,
 	"NotificationProcessingChunkSize" : 10,
 	"NotificationSendingInterval" : 1000,
-	"NotificationGatewayURL" : "http://vmdk-rm2-fax.sqdev.sunquestinfo.com/"
+	"NotificationGatewayURL" : "http://vmdk-rm2-fax.sqdev.sunquestinfo.com/",
+	"map":"mappy"
 }
