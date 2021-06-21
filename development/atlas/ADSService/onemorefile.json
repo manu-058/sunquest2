@@ -2,6 +2,6 @@
   "seconfilekey1" : { "level2" : " val"},
   "hello1": "ok",
   "mohan" : [{ "opop":"fdf" },{ "maon" : "hello" }],
-  "key12" : "testing",
-  "key12" : "test"
+  "key13" : "testing",
+  "key13" : "test"
 }
