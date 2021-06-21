@@ -4,5 +4,6 @@
     "PortNumber": 8500,
     "TokenBasedAuthentication": true,
     "EncryptedToken": "c9d195b3-6d29-7231-5abe-9df591381ff7",
-    "WaitTime": "10"
+    "WaitTime": "10",
+    "DevConsulServerConfig":"kok"
   }
