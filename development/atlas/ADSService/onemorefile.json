@@ -1,8 +1,8 @@
 {
   "seconfilekey1" : { "level2" : " val"},
   "hello1": "ok",
-  "key14" : "testing",
-  "key14" : "testing",
+  "key13" : "testing",
+  "key13" : "testing",
   "hello1": "ok",
   "testarray" :["mango","apple","watermelon"]
 }
