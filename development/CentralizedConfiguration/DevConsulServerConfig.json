@@ -8,7 +8,7 @@
     "WaitTime": "10"
   },
     {
-    "DataCenter": "dc12,
+    "DataCenter": "dc12",
     "Address": "http://tr7_lab_val04:8500/",
     "PortNumber": 8500,
     "TokenBasedAuthentication": false,
